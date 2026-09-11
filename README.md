@@ -51,3 +51,9 @@ Our headline accuracy metric (~82%) is evaluated on a clean, filtered subsample 
 8. **Asynchronous Batching:** Structured evaluation scripts to process data frames in batches for lower latency.
 9. **Error Handling:** Added defensive try-except blocks for missing column schemas (`inbound`, `text`) to prevent runtime crashes.
 10. **Concise Prompting:** Designed output response templates to strictly adhere to Twitter's character constraints.
+
+
+## How to Run (Under 15 minutes)
+1. Clone the repository: `git clone <your-repo-link>`
+2. Install dependencies: `pip install pandas`
+3. Run the pipeline script: `python pipeline.py`
